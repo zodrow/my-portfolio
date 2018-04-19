@@ -1,0 +1,60 @@
+@import './variables.scss';
+
+@font-face {
+	font-family: 'Butler';
+	font-style: normal;
+  font-weight: 300;
+	src: url(./public/fonts/Butler_Light.otf) format('otf');
+}
+
+@font-face {
+	font-family: 'Butler';
+	font-style: normal;
+  font-weight: 400;
+	src: url(./public/fonts/Butler_Regular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Butler';
+	font-style: normal;
+	font-weight: 700;
+	src: url(./public/fonts/Butler_Bold.otf) format('otf');
+}
+
+html { box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  color: $bodyColor;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
+  background-color: $lightGray;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
