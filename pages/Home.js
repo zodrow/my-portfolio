@@ -15,7 +15,7 @@ const Home = () => (
       <Container>
         <Row>
           <Col xs="12" md="10" md-offset="1">
-            <h1>Hi, my name is Laura Zodrow and I am a designer and front-end developer. I am passonate about creating products with beautiful UI and intuative UX. I enjoy developing products that make a positive impact on people's lives.</h1>
+            <h1 className="main-heading">Hi, my name is Laura Zodrow and I am a designer and front-end developer. I am passonate about creating products with beautiful UI and intuative UX. I enjoy developing products that make a positive impact on people's lives.</h1>
           </Col>
         </Row>
       </Container>
@@ -166,7 +166,7 @@ const Home = () => (
           </Col>
         </Row>
       </Container>
-      <div className="gray-bkg">
+      <div className="gray-bkg no-margin-bottom">
         <Container>
           <Row>
             <Col xs="12" className="prototype">

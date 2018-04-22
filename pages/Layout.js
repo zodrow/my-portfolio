@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
       <meta http-equiv="Content-Language" content="en"/>
     </Head>
-    <Header children={children}/>
+    <Header/>
     {children}
     <Footer />
   </div>
