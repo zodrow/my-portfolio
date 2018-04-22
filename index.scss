@@ -47,7 +47,7 @@ body {
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   //font-family: 'Montserrat', sans-serif;
-  background-color: $lightGray;
+  //background-color: $lightGray;
 }
 
 img {
@@ -57,4 +57,116 @@ img {
 h1 {
   font-size: 2rem;
   line-height: 2.5rem;
+  color: $headingColor;
+}
+
+.gray-bkg {
+  background-color: $bkgGray;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.column {
+  max-width: 650px !important;
+  .column__heading {
+    text-transform: uppercase;
+    margin-top: 4rem;
+    font-size: 1.15rem;
+    margin-bottom: 0px;
+    color: $headingColor;
+  }
+}
+
+.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.examples {
+  text-align: center;
+  margin-top: 4rem;
+  img {
+    max-width: 75%;
+  }
+  &:first-of-type {
+    margin-top: 0px;
+  }
+  .examples__heading-border {
+    width: 50px;
+    border-bottom: 3px solid #7BDAC5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+  .examples__heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+  }
+}
+
+.prototype {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  iframe {
+    border-width: 0px;
+  }
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container {
+  .nav-container__logo {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .nav-container__list {
+    text-align: right;
+    ul {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        margin: 1rem;
+        &.active {
+          a {
+            border-bottom: 3px solid #7BDAC5;
+          }
+        }
+        a {
+          text-decoration: none;
+          color: $headingColor;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
+.extra-spacing {
+  margin-top: 3rem;
+}
+
+.wireframes {
+  margin-top: 3rem;
+  max-width: 100%;
+  background-image: url("./public/images/wireframes.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.image-caption {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: $headingColor;
+  letter-spacing: 2px;
 }

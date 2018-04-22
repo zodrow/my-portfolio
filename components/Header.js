@@ -9,11 +9,19 @@ const Header = () => (
   <header>
     <nav>
       <div className="nav-container">
-        <ul>
-          <li><Link to='/'>Work</Link></li>
-          <li><Link to='/about'>About</Link></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <Row>
+          <Col xs="12" sm="6">
+            <div className="nav-container__logo"><img src="../images/logo.png" /></div>
+          </Col>
+          <Col xs="12" sm="6">
+            <div className="nav-container__list">
+              <ul>
+                <li className={window.location.pathname === '/' && 'active'}><Link to='/'>Work</Link></li>
+                <li className={window.location.pathname === '/about' && 'active'}><Link to='/about'>About</Link></li>
+              </ul>
+            </div>
+          </Col>
+        </Row>
       </div>
     </nav>
   </header>
