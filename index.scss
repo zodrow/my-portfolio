@@ -165,7 +165,6 @@ h1 {
 .wireframes {
   margin-top: 3rem;
   max-width: 100%;
-  background-image: url("./public/images/wireframes.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,6 +199,23 @@ button {
   cursor: pointer;
   padding: 1rem 2.5rem;
   background-color: #7BDAC5;
-  color: #fff;
-  font-size: 1.5rem !important;
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem !important;
+  }
+}
+
+.icon {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.icon-title {
+  display: inline-block;
+}
+
+.icon-description {
+  margin-top: 10px;
 }

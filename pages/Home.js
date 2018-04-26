@@ -62,7 +62,7 @@ const Home = () => (
           </Col>
         </Row>
       </Container>
-      <div className="wireframes"></div>
+      <div style={{backgroundImage: "url(../images/wireframes.png)"}} className="wireframes"></div>
       <Container className="image-caption">
         <Row>
           <Col xs="6">

@@ -29,17 +29,19 @@ class About extends React.Component {
                 <h1>Skills</h1>
               </Col>
               <Col xs="6">
-                <h2>UI/UX Designer</h2>
-                <p>I’ve completed courses UX: Interaction Design and UX Research & Strategy at Designlab. During this program I focused on a single project, ChronBond an application that…, conducting user research, completing story board exercises, building wireframes and user flows, and ultimately creating an interactive prototype.</p>
+                <img className="icon" src="../images/design.png" />
+                <h2 className="icon-title" >UI/UX Designer</h2>
+                <p className="icon-description">I’ve completed courses UX: Interaction Design and UX Research & Strategy at Designlab. During this program I focused on a single project, ChronBond an application that…, conducting user research, completing story board exercises, building wireframes and user flows, and ultimately creating an interactive prototype.</p>
               </Col>
               <Col xs="6">
-                <h2>Developer</h2>
-                <p>I attended a 10 week full-stack javascript bootcamp, RefactorU, over three years ago. Since, I’ve done feature development using technologies Javascript, React.js,  and Webpack at companies in Denver, Colorado. I enjoy working on products that have a positive impact on people’s lives. </p>
+                <img className="icon" src="../images/code.png" />
+                <h2 className="icon-title">Developer</h2>
+                <p className="icon-description">I attended a 10 week full-stack javascript bootcamp, RefactorU, over three years ago. Since, I’ve done feature development using technologies Javascript, React.js,  and Webpack at companies in Denver, Colorado. I enjoy working on products that have a positive impact on people’s lives. </p>
               </Col>
             </Row>
             <Row className="btn-container">
               <Col xs="12">
-                <button>Download Resume</button>
+                <button><a href="../images/Laura-Zodrow-Resume.pdf" download>Download Resume</a></button>
               </Col>
             </Row>
           </Container>
