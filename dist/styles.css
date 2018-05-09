@@ -1,4 +1,4 @@
-/89498099657e20181336bb7169bb01b2.otf/1c93a638b28bc696fe31a5e9ca1e18df.otf/bb20bd82505e606d2271e1aa308d62f2.otf/41c6e203afce6a8dabeed2f2cdbdae8d.png/* COLORS */
+/* COLORS */
 /*
 FONT SIZES
 */
@@ -11,24 +11,6 @@ MEDIA SIZES
 /*
 MIXINS
 */
-@font-face {
-  font-family: 'Butler';
-  font-style: normal;
-  font-weight: 300;
-  src: url([object Object]) format("otf"); }
-
-@font-face {
-  font-family: 'Butler';
-  font-style: normal;
-  font-weight: 400;
-  src: url([object Object]) format("otf"); }
-
-@font-face {
-  font-family: 'Butler';
-  font-style: normal;
-  font-weight: 700;
-  src: url([object Object]) format("otf"); }
-
 html {
   box-sizing: border-box; }
 
@@ -142,7 +124,6 @@ h1 {
 .wireframes {
   margin-top: 3rem;
   max-width: 100%;
-  background-image: url([object Object]);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

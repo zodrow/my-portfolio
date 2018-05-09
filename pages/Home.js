@@ -15,7 +15,7 @@ const Home = () => (
       <Container>
         <Row>
           <Col xs="12" md="10" md-offset="1">
-            <h1 className="main-heading">Hi, my name is Laura Zodrow and I am a designer and front-end developer. I am passonate about creating products with beautiful UI and intuative UX. I enjoy developing products that make a positive impact on people's lives.</h1>
+            <h1 className="main-heading">Hi, my name is Laura Zodrow and I am a designer and front-end developer. I am passionate about creating products with beautiful UI and intuitive UX. I enjoy developing products that make a positive impact on people’s lives.</h1>
           </Col>
         </Row>
       </Container>
@@ -27,7 +27,7 @@ const Home = () => (
             </Col>
             <Col xs="12" sm="6">
               <h1>ChronBond</h1>
-              <p>ChronBond is a community for people with chronic health conditions. Connecting through messages, events, and gaining insight into their condition through trustworth message boards. Publicly and privately exchange stories with others who share your condition.</p>
+              <p>ChronBond is a community for people with chronic health conditions. Connecting through messages, events, and gaining insight into their condition through trustworthy message boards. Publicly and privately exchange stories with others who share your condition.</p>
             </Col>
           </Row>
         </Container>
@@ -38,8 +38,8 @@ const Home = () => (
             <h2 className="column__heading">The Problem</h2>
           </Col>
           <Col xs="12">
-            <p>According to the Center of Disease Control and Prevention, as of 2012, about half of all adults—117 million people—had one or more chronic health conditions. This includes myself, my mother, and my best friend. I’m learning, through their and my own experience, having an invisible chronic condition can feel isolating and dispiriting. You usually need to change your lifestyle and habits to accommodate your condition. This can be difficult without a support system, encouragement, and understanding.</p>
-            <p>Another problem is the amount of questions you have that doctors can’t always answer. For instance, how do you stay positive when dealing with this condition everyday? The internet also becomes a source of dread, giving you abundant and usually conflicting information. It can be overwhelming and difficult to navigate.</p>
+            <p>According to the Center of Disease Control and Prevention, as of 2012, about half of all adults-117 million people-had one or more chronic health conditions. This includes myself, my mother, and my best friend. I'm learning, through their and my own experience, having an invisible chronic condition can feel isolating and dispiriting. You usually need to change your lifestyle and habits to accommodate your condition. This can be difficult without a support system, encouragement, and understanding.</p>
+            <p>Another problem is the amount of questions you have that doctors can't always answer. For instance, how do you stay positive when dealing with this condition everyday? The internet also becomes a source of dread, giving you abundant and usually conflicting information. It can be overwhelming and difficult to navigate.</p>
           </Col>
         </Row>
         <Row>
@@ -76,7 +76,7 @@ const Home = () => (
       <Container className="column extra-spacing">
         <Row>
           <Col xs="12">
-            <p>This process was very enlightening for me. Being someone with a chronic condition, I had an idea of what I wanted for this application and had to step back sometimes and consider my cognitive biases. Reminding myself that what the majority of users want and what I want aren’t always the same thing. It’s important to get as many perspectives as possible so I can deliver a product that addresses everyones needs and that users will love to use.</p>
+            <p>This process was very enlightening for me. Being someone with a chronic condition, I had an idea of what I wanted for this application and had to step back sometimes and consider my cognitive biases. Reminding myself that what the majority of users want and what I want aren't always the same thing. It's important to get as many perspectives as possible so I can deliver a product that addresses everyones needs and that users will love to use.</p>
           </Col>
         </Row>
         <Row>
@@ -100,11 +100,11 @@ const Home = () => (
           <Row>
             <Col xs="12" sm="6">
               <img src="../images/iphonex-board.png" />
-              <p>My primary goal for this message board was to create an uncluttered user interface. I didn’t want it to be just a long list of unorganized text. I focused on grouping main categories.</p>
+              <p>My primary goal for this message board was to create an uncluttered user interface. I didn't want it to be just a long list of unorganized text. I focused on grouping main categories.</p>
             </Col>
             <Col xs="12" sm="6">
               <img src="../images/iphonex-symptoms-main.png" />
-              <p>Then the individual category page is broken up into cards to create space between questions, so it’s not visually overwhelming for the user. Also, practitioners can post discussions or answer discussions, so the user knows answers are trustworthy. Practitioners are incentivised to post because they will be in the "Find a Doctor" section.</p>
+              <p>Then the individual category page is broken up into cards to create space between questions, so it's not visually overwhelming for the user. Also, practitioners can post discussions or answer discussions, so the user knows answers are trustworthy. Practitioners are incentivised to post because they will be in the "Find a Doctor" section.</p>
             </Col>
           </Row>
           <Row>
@@ -114,7 +114,7 @@ const Home = () => (
             </Col>
             <Col xs="12" sm="6">
               <img src="../images/iphonex-thread.png" />
-              <p>On the individual discussion pages, to keep responses sometimes separate user can create a thread commenting on a specific response. Threads also have a light gray background breaking up the long stretch of text. Also, a user can save a discussion so it’s easy to find again and follow a discussion that interests them. </p>
+              <p>On the individual discussion pages, to keep responses sometimes separate user can create a thread commenting on a specific response. Threads also have a light gray background breaking up the long stretch of text. Also, a user can save a discussion so it's easy to find again and follow a discussion that interests them. </p>
             </Col>
           </Row>
         </Container>
@@ -150,7 +150,7 @@ const Home = () => (
             </Col>
             <Col xs="12" sm="6">
               <img src="../images/iphonex-settings.png" />
-              <p>In your privacy settings you can make your profile visible or not. You can also decide to keep your name private. You can always view groups to connect with, but if you’re profile is not visible you cannot connect with individuals. </p>
+              <p>In your privacy settings you can make your profile visible or not. You can also decide to keep your name private. You can always view groups to connect with, but if you're profile is not visible you cannot connect with individuals. </p>
             </Col>
           </Row>
         </Container>
