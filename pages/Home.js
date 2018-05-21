@@ -38,7 +38,7 @@ const Home = () => (
             <h2 className="column__heading">The Problem</h2>
           </Col>
           <Col xs="12">
-            <p><a className="link-reference" href="https://www.cdc.gov/chronicdisease/overview/index.htm">Half of adults—117 million people—in the U.S. have one or more chronic health conditions.</a> This includes myself, my mother, and my best friend. I'm learning through their and my own experience, having an invisible chronic condition can feel isolating and dispiriting. You usually need to change your lifestyle and habits to accommodate your condition. This can be difficult without a support system, encouragement, and understanding.</p>
+            <p><a className="link-reference" target="_blank" href="https://www.cdc.gov/chronicdisease/overview/index.htm">Half of adults—117 million people—in the U.S. have one or more chronic health conditions.</a> This includes myself, my mother, and my best friend. I'm learning through their and my own experience, having an invisible chronic condition can feel isolating and dispiriting. You usually need to change your lifestyle and habits to accommodate your condition. This can be difficult without a support system, encouragement, and understanding.</p>
             <p>Another problem is the amount of questions you have that doctors can't always answer. For instance, how do you stay positive when dealing with this condition everyday? The internet also becomes a source of dread, giving you abundant and usually conflicting information. It can be overwhelming and difficult to navigate.</p>
           </Col>
         </Row>
