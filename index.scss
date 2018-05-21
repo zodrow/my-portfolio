@@ -46,8 +46,10 @@ body {
   font-weight: 400;
   font-style: normal;
   font-family: 'Roboto', sans-serif;
-  //font-family: 'Montserrat', sans-serif;
-  //background-color: $lightGray;
+  text-align: center;
+  @include sm-tablet {
+    text-align: left;
+  }
 }
 
 img {
@@ -117,14 +119,17 @@ h1 {
   margin-right: auto;
   text-align: center;
   iframe {
+    max-width: 100%;
     border-width: 0px;
   }
 }
 
 .align-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include sm-tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .nav-container {
@@ -218,4 +223,10 @@ button {
 
 .icon-description {
   margin-top: 10px;
+}
+
+.link-reference {
+  text-decoration: underline;
+  text-decoration-color: #7BDAC5;
+  color: $bodyColor;
 }

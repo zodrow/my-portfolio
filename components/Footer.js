@@ -9,10 +9,10 @@ const Footer = () => (
   <footer>
     <Container>
       <Row>
-        <Col xs="12" sm="6">
+        <Col xs="6">
           <p>Laura Zodrow</p>
         </Col>
-        <Col xs="12" sm="6" className="contact-right">
+        <Col xs="6" className="contact-right">
           <a>laura.zodrow@gmail.com</a>
           <div><a>832.922.2053</a></div>
         </Col>

@@ -27,7 +27,7 @@ const Home = () => (
             </Col>
             <Col xs="12" sm="6">
               <h1>ChronBond</h1>
-              <p>ChronBond is a community for people with chronic health conditions. Connecting through messages, events, and gaining insight into their condition through trustworthy message boards. Publicly and privately exchange stories with others who share your condition.</p>
+              <p>ChronBond is a community for people with chronic health conditions. Connect through messages, events, and gain insight into your condition through trustworthy message boards. Publicly and privately exchange stories with others who share your condition.</p>
             </Col>
           </Row>
         </Container>
@@ -38,7 +38,7 @@ const Home = () => (
             <h2 className="column__heading">The Problem</h2>
           </Col>
           <Col xs="12">
-            <p>According to the Center of Disease Control and Prevention, as of 2012, about half of all adults-117 million people-had one or more chronic health conditions. This includes myself, my mother, and my best friend. I'm learning, through their and my own experience, having an invisible chronic condition can feel isolating and dispiriting. You usually need to change your lifestyle and habits to accommodate your condition. This can be difficult without a support system, encouragement, and understanding.</p>
+            <p><a className="link-reference" href="https://www.cdc.gov/chronicdisease/overview/index.htm">Half of adults—117 million people—in the U.S. have one or more chronic health conditions.</a> This includes myself, my mother, and my best friend. I'm learning through their and my own experience, having an invisible chronic condition can feel isolating and dispiriting. You usually need to change your lifestyle and habits to accommodate your condition. This can be difficult without a support system, encouragement, and understanding.</p>
             <p>Another problem is the amount of questions you have that doctors can't always answer. For instance, how do you stay positive when dealing with this condition everyday? The internet also becomes a source of dread, giving you abundant and usually conflicting information. It can be overwhelming and difficult to navigate.</p>
           </Col>
         </Row>
@@ -76,7 +76,7 @@ const Home = () => (
       <Container className="column extra-spacing">
         <Row>
           <Col xs="12">
-            <p>This process was very enlightening for me. Being someone with a chronic condition, I had an idea of what I wanted for this application and had to step back sometimes and consider my cognitive biases. Reminding myself that what the majority of users want and what I want aren't always the same thing. It's important to get as many perspectives as possible so I can deliver a product that addresses everyones needs and that users will love to use.</p>
+            <p>This process was very enlightening for me. Being someone with a chronic condition, I had an idea of what I wanted for this application and had to step back sometimes and consider my cognitive bias. Reminding myself that what the majority of users want and what I want aren't always the same thing. It's important to get as many perspectives as possible so I can deliver a product that addresses everyones needs and that users will love to use.</p>
           </Col>
         </Row>
         <Row>
@@ -93,7 +93,7 @@ const Home = () => (
         <Container className="examples">
           <Row>
             <Col xs="12">
-              <h2 className="examples__heading">Easily Navigate a trustworthy board</h2>
+              <h2 className="examples__heading">Easily navigate a trustworthy board</h2>
               <div className="examples__heading-border"></div>
             </Col>
           </Row>

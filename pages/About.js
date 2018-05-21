@@ -41,7 +41,7 @@ class About extends React.Component {
             </Row>
             <Row className="btn-container">
               <Col xs="12">
-                <button><a href="../images/Laura-Zodrow-Resume.pdf" download>Download Resume</a></button>
+                <button><a href="../images/Resume_Laura_Zodrow.pdf" download>Download Resume</a></button>
               </Col>
             </Row>
           </Container>
